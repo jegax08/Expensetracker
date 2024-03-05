@@ -78,10 +78,10 @@ app.get('/get-expense', async function(request,response){
     }
    })
 
-   app.patch('/edit-expense',function(request,response){
+//    app.patch('/edit-expense',function(request,response){
 
 
-   })
+//    })
 
 app.patch("/edit-expense/:id",async function(request,response){
   try{
