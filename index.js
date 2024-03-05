@@ -14,7 +14,7 @@ app.use(cors())
 try{
    await mongoose.connect("mongodb+srv://Jega0018:Jega08m@cluster0.2afnqpo.mongodb.net/ExpenseTracker?retryWrites=true&w=majority&appName=Cluster0")
    console.log("DB connection established :)")
-const port = process.env.PORT || 8500
+const port = process.env.port || 8500
 app.listen(port,function(){
     console.log(`listening on port ${port}...`)
 })
